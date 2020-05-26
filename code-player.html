@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CodePlayer </title>
+        <!--For linking jQuery-->
+        <script type = "text/javascript" src="D:/Web Design/4-jQuery/jquery source/source.js"></script>
+        <script src = "D:/Web Design/4-jQuery/jquery-ui/jquery-ui.js"></script>
+        <link href = "D:/Web Design/4-jQuery/jquery-ui/jquery-ui.css" rel = "stylesheet">
+
+        <!--For linking css-->
+
+        <link rel = "stylesheet" type = "text/css" href = "D:/Web Design/4-jQuery/code-player/code-player.css">
+
+    </head>
+
+    <body>
+
+        <div id = "header">
+            <div id = "logo">
+                CodePlayer
+            </div>
+
+            <div id = "button-container">
+                <div class = "toggle-button active" id = "html">
+                    HTML
+                </div>
+                <div class = "toggle-button" id = "css">
+                    CSS
+                </div>
+                <div class = "toggle-button" id = "js">
+                    JavaScript
+                </div>
+                <div class = "toggle-button active" id = "output">
+                    Output
+                </div>
+            </div>
+        </div>
+
+        <div id = "body-container">
+
+            <textarea id = "html-panel" class = "panel"> Hello World </textarea>
+
+            <textarea id = "css-panel" class = "panel hidden"> </textarea>
+
+            <textarea id = "js-panel" class = "panel hidden"> </textarea>
+
+            <iframe id = "output-panel" class = "panel"></iframe>
+
+        </div>
+
+        <!--For linking javascript-->
+        <script type = "text/javascript" src = "D:/Web Design/4-jQuery/code-player/code-player.js"></script>
+    </body>
+</html>
